@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+  
+  <div class="nav">
+     <div id="logo"><span id="first-l">A</span><span id="second-l">mazon</span></div>
+     
+     <div id="login-icon">
+       <i onclick="opennev()" class="fa-regular fa-circle-user"></i>
+     </div>
+    
+  </div>
+  
+  
+  <div id="login">
+    
+    <i onclick="closenev()" class="fa-solid fa-xmark cross"></i>
+    
+    <form>
+    <p id="login-text">Login</p>
+    
+    <label id="for-e" for="email">Email</label><br>
+    <input type="email" name="email" id="email" required placeholder="abcd1234@gmail.com">
+    <br>
+    <label id="for-p" for="pass">Password</label><br>
+    <input type="text" name="pass" id="pass" required placeholder="•••••••••••"><br>
+    <a id="forget" href="http://localhost:7700/forget.html">Forget password?</a><br>
+    <input herf="http://localhost:7700/index.html" type="submit" value="LOG IN" id="btn-login">
+    <br>
+    
+    <span id="account-signup">Don't have an account?</span>
+    <a id="signup" href="#">signup</a>
+    </form>
+  </div>
+  
+ 
+  
+  
+  <script src="main.js">main.js</script>
+</body>
+</html>

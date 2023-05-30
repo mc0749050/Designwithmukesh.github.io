@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#first-l{
+  color: #FF6A0B;
+  font-size: 35px;
+  font-family: 'Recursive', sans-serif;
+  
+}
+#second-l{
+  font-size: 30px;
+  font-family: 'Recursive', sans-serif;
+}
+
+#logo{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.nav{
+  border-bottom: 1px solid black;
+  height: 55px;
+  display: flex;
+ }
+#login-icon i{
+  font-size: 30px;
+  margin-left: 140px;
+  margin-top: 13px;
+}
+#login, #signupp{
+  background: #FDFDFD;
+  height: 500px;
+  width: 90%;
+  position: fixed;
+  top: 100px;
+  left: 5%;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+display: none;
+ }
+ 
+.cross{
+  font-size: 30px;
+  margin-left: 280px;
+  margin-top: 15px;
+}
+
+#login-text{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+label{
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 25px;
+  position: absolute;
+  
+  
+}
+
+#pass, #email{
+  padding: 10px 28px;
+  margin-left: 25px;
+  position: absolute;
+  border-radius: 4px;
+  border: 0.5px solid black;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+::placeholder{
+  font-size: 10px;
+  font-weight: 200;
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  border: none;
+  text-decoration: none;
+}
+input:focus{
+  outline: none;
+}
+
+#pass::placeholder{
+  font-size: 20px;
+  top: 5px;
+}
+
+#pass{
+  position: absolute;
+  top:260px;
+}
+
+#email{
+ position: absolute;
+ top: 180px;
+}
+
+#for-e{
+  position: absolute;
+  top: 150px;
+}
+
+#for-p{
+  position: absolute;
+  top: 230px;
+}
+
+#forget{
+  font-size: 10px;
+  position: absolute;
+  top: 300px;
+  right: 30px;
+  text-decoration: none;
+}
+#btn-login{
+  position: absolute;
+  padding: 10px 110px;
+  border-radius: 4px;
+  border: none;
+  background: #FF784F;
+  top: 340px;
+  left: 25px;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+#account-signup{
+  position: absolute;
+  top: 390px;
+  font-size: 15px;
+  left: 30px;
+}
+#signup{
+  position: absolute;
+  top: 390px;
+  font-size: 15px;
+  left: 210px;
+  text-decoration: none;
+}
